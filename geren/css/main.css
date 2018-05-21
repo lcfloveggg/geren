@@ -156,6 +156,19 @@ body{
     opacity: 0.3;
     z-index: 1;
 }
+
+.box:nth-child(2):after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #000;
+    opacity: 0.3;
+    z-index: 1;
+}
+
 .box:nth-child(3):after{
     position: absolute;
     content: "";
@@ -164,7 +177,7 @@ body{
     left: 0;
     top: 0;
     background: #000;
-    opacity: 0.5;
+    opacity: 0.3;
     z-index: 1;
 }
 
@@ -426,15 +439,15 @@ body{
 }
 
 .blog_a .blog_icon{
-    background: url('../images/icon/blog.png');
+    background: url('../images/icon/qqico1.png');
     display: block;
-    width: 50px;
+    width: 70px;
     height: 50px;
     position: relative;
     background-size: cover;
     -moz-background-size: cover;
-    left: 5px;
-    top: -5px;
+    left: -8px;
+    top: 0;
 }
 
 .box01_content h1,.box01_content h2,.box01_content p{
@@ -832,7 +845,7 @@ body{
 
 .hobby_text_div{
     padding: 0 30px;
-    color: #DADADA;
+    color: #eee;
 }
 
 .hobby_text_div p{
@@ -980,7 +993,7 @@ body{
 
 .blog_items a{
     background-color:rgba(153,0,102,0.8);
-    background: url(../images/icon/blog.png);
+    background: url(../images/icon/qqico1.png);
 }
 
 
@@ -1023,7 +1036,6 @@ body{
     border-radius: 3px;
     top: -170px;
     left: -55px;
-    display: block;
     display: none;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
@@ -1206,7 +1218,7 @@ body{
     }
 
     .foot_info_main ul li{
-        margin: 0px 0 16px 0;
+        margin: 0 0 16px 0;
         width: 20%;
 
     }
@@ -1369,7 +1381,6 @@ body{
     }
 
     .box04_title{
-        margin-top: 1.5rem;
         font-variant: small-caps;
         margin-top: 1rem;
         line-height: 2rem;
@@ -1415,7 +1426,7 @@ body{
 
     .foot_info_main ul li{
         width: 45%;
-        margin: 0px 0 0.2rem 0;
+        margin: 0 0 0.2rem 0;
     }
 
     .foot_info_main ul li a{
@@ -1516,7 +1527,7 @@ body{
 .timeUl li:nth-child(2n) .tupian{
     width: 100px;
     height: 100px;
-    margin: 20% 32%;
+    margin: 0 auto;
 }
 .timeUl li:nth-child(5) .tupian{
     width: 200px;
